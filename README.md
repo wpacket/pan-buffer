@@ -1,5 +1,5 @@
 # pan-buffer
-A script to spot Buffer intensive sessions on your Palo Alto Network Firewall and avoid buffer & CPU issues.
+A script to spot buffer intensive sessions on your Palo Alto Network Firewall and avoid performance issues.
 The script was tested with PAN-OS 10.0
 
 ## Explanation & Motivation
