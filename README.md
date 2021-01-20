@@ -1,6 +1,6 @@
 # pan-buffer
 A script to spot buffer intensive sessions on your Palo Alto Network Firewall and avoid performance issues.
-The script was tested with PAN-OS 10.0
+The script was tested with PAN-OS 10.0.
 
 ## Explanation & Motivation
 The script idea came with a performance issue I had on a production Palo Alto Network Firewall one day. The firewall itself was not the problem, at least it was properly sized for this environment. However, every once in a while I had specific sessions hitting my buffer so badly that legitimate traffic was impacted with delay & random drop. I had to find out what session was killing my performance even if I was not in front of my terminal.
