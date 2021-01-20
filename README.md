@@ -23,10 +23,10 @@ This example demonstrates how I was able to spot smbv2 session doing a massive b
 
 # tail -f ./pan_buffer.log
 
-2021-01-20 16:54: Session ID =20878  (Z_DMZ_PROD)10.10.10.101 -> (Z_SAN)10.10.72.10:445 APP=ms-ds-smbv2
+2021-01-20 16:54: Session ID =20878  (Z_DMZ_PROD_18)172.17.21.33 -> (Z_SAN_FR)172.17.32.33:445 APP=ms-ds-smbv2
 Packet Buffer Usage: 78%
 
-2021-01-20 17:08: Session ID =20891  (Z_DMZ_PROD)10.10.10.101 -> (Z_SAN)10.10.72.10:445 APP=ms-ds-smbv2
+2021-01-20 17:08: Session ID =20891  (Z_DMZ_PROD_18)172.17.21.33 -> (Z_SAN_FR)172.17.32.33:445 APP=ms-ds-smbv2
 Packet Buffer Usage: 98%
 ....
 
